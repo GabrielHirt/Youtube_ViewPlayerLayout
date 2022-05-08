@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 242, 242);
+}
+
+header{
+    background:white;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px red;
+    margin: 0 10px 0 10px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.box1{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border: solid 1px red;
+}
+
+.box1 .logo{
+    margin-left: 20px;
+}
+
+.box2{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border: solid 1px red;
+
+}
+
+.searcher{
+    padding: 2px 20px 2px 20px;
+    background: rgb(230, 230, 230);
+    border-radius: 0 3px 3px 0px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    border: solid 1px rgb(190, 189, 189);
+}
+
+.voice-search{
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    padding: 5px;
+    margin-left: 5px;
+    
+
+}
+
+.box2 .searcher img{
+    align-self: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box3{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border: solid 1px red;
+}
+
+input{
+    height: 30px;
+    width: 550px;
+    border: solid 1px rgb(190, 189, 189);
+}
+
+.startSesion{
+    margin-right: 10px;
+}
+
+.definitions{
+    margin-right: 30px;
+}
+
+.bottom-login{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border: solid 2px rgb(106, 153, 253);
+    padding: 0 10px 0 10px;
+    height: 35px;
+    border-radius: 2px;    
+}
+.bottom-login p{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+    color:rgb(12, 75, 211);
+    font-weight: 500;
+    font-size: 14px;
+}
