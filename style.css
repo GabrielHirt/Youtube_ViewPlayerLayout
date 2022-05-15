@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(243, 242, 242);
+    font-family: "Helvetica Neue",Helvetica
 }
 
 header{
@@ -97,4 +98,109 @@ input{
     color:rgb(12, 75, 211);
     font-weight: 500;
     font-size: 14px;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid red;
+ 
+}
+
+
+.container{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 90vw;
+
+}
+
+
+.container-right{
+    border: 1px solid red;
+    flex: 3;
+    margin: 10px 10px;
+}
+
+.player-img img{
+    display: flex;
+    height: 750px;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.507);
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box01{
+    border: 1px solid rgb(0, 17, 255);
+    height: 85px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.title-info{
+    flex: 1;
+    border: 1px solid rgb(0, 17, 255);
+}
+
+.title-info p{
+    color: grey;
+}
+
+.interactions{
+    flex: 2;
+    border: 1px solid rgb(0, 17, 255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.icons{
+    border: 1px solid rgb(4, 0, 248);
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+
+
+}
+
+.inline{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 12px;
+    margin: 0px 20px 0px 10px;
+}
+
+.box02{
+    border: 1px solid rgb(4, 0, 248);
+    height: 250px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.box03{
+    border: 1px solid rgb(4, 0, 248);
+    height: 250px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+
+.container-left{
+    border: 1px solid red;
+    flex: 1;
 }
