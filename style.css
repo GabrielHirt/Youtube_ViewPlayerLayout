@@ -112,7 +112,8 @@ main{
 .container{
     display: flex;
     border: 1px solid rgb(0, 0, 0);
-    min-width: 90vw;
+    max-width: 85vw;
+    margin-top: 20px;
 
 }
 
@@ -185,12 +186,155 @@ h2{
     margin: 0px 20px 0px 10px;
 }
 
+
+
+
+
+
+
+
+
 .box02{
+    border: 1px solid rgb(4, 0, 248);
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+
+.align-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+
+}
+
+.user-box h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.user-box span{
+    font-size: 15px;
+    margin-top: -14px;
+    margin-left: 10px;
+}
+
+.video_user_img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background: rgb(197, 0, 0);
+    border-radius: 50%;
+}
+
+.user-complement{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-button button{
+    padding: 10px;
+    background: rgb(197, 0, 0);
+    color: white;
+    font-weight: 400;
+    border: none;
+    
+}
+
+
+.box02-1{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(190, 190, 190);
+
+}
+
+.box02-1 button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+
+}
+.box02-1 button:hover{
+    color: black;
+}
+
+.box02-1 p{
+    font-size: 15px;
+
+}
+
+.box001{
+    width: 300px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+
+.box02-2{
     border: 1px solid rgb(4, 0, 248);
     height: 250px;
     margin: 10px 0px 10px 0px;
     border-bottom: 1px solid rgb(190, 190, 190);
 }
+
+.ordenar{
+    display: flex;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.ordenar p{
+    color: black;
+   
+}
+
+.coments-info{
+    display: flex;
+}
+
+.user-comments-area{
+    display: flex;
+}
+
+.comment-here{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.comment-here p{
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+
+}
+
+.user-comments-area .video_user_img{
+    background-color: rgb(125, 186, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .box03{
     border: 1px solid rgb(4, 0, 248);
@@ -203,4 +347,57 @@ h2{
 .container-left{
     border: 1px solid red;
     flex: 1;
+}
+
+.picture-left img{
+    display: flex;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.507);
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.box-picture-left{
+    display: flex;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+
+
+}
+
+
+.picture-left{
+    flex: 1;
+    display: flex;
+    
+
+}
+
+
+.picture-left-complement{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.picture-left-complement h1{
+    font-size: 18px;
+
+}
+
+.picture-left-complement p{
+    font-size: 12px;
+}
+
+.picture-left-complement span{
+    font-size: 12px;
 }
